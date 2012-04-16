@@ -112,8 +112,8 @@ def can_you_see?(map, dim, direction)
   end
 end
 
-outfile = File.open("/Users/hash/Desktop/out.txt", "w+")
-File.open("/Users/hash/Downloads/D-small-attempt1.in"){|infile|
+outfile = File.open("./out.txt", "w+")
+File.open("./D-small-attempt1.in"){|infile|
 
   @cases = []; @one_case = []
   infile.read.split("\n").each_with_index do |line, index|

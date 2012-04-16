@@ -37,7 +37,7 @@ def mapping(str)
 end
 
 @cases = []
-File.open("/Users/hash/Downloads/A-small-attempt1.in"){|file|
+File.open("./A-small-attempt1.in"){|file|
   row = 0
   while line = file.gets
     row = row + 1

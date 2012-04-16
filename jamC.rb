@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-outfile = File.open("/Users/hash/Desktop/out.txt", "w+")
+outfile = File.open("./out.txt", "w+")
 
 # largeやったら重すぎた
-File.open("/Users/hash/Downloads/C-large.in"){|infile|
+File.open("./C-large.in"){|infile|
 
   row = 0
   while line = infile.gets

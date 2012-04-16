@@ -36,9 +36,9 @@ end
 #   "6 2 8 29 20 8 18 18 21"
 # ]
 
-outfile = File.open("/Users/hash/Desktop/out.txt", "w+")
+outfile = File.open("./out.txt", "w+")
 
-File.open("/Users/hash/Downloads/B-large.in"){|infile|
+File.open("./B-large.in"){|infile|
   row = 0
   while line = infile.gets
     row += 1
